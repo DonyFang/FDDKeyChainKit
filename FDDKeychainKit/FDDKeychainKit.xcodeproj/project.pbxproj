@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D97162151F283DC70080480A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162141F283DC70080480A /* main.m */; };
+		D97162181F283DC70080480A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162171F283DC70080480A /* AppDelegate.m */; };
+		D971621B1F283DC70080480A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D971621A1F283DC70080480A /* ViewController.m */; };
+		D971621E1F283DC70080480A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D971621C1F283DC70080480A /* Main.storyboard */; };
+		D97162201F283DC70080480A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D971621F1F283DC70080480A /* Assets.xcassets */; };
+		D97162231F283DC70080480A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97162211F283DC70080480A /* LaunchScreen.storyboard */; };
+		D971622E1F283DC70080480A /* FDDKeychainKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D971622D1F283DC70080480A /* FDDKeychainKitTests.m */; };
+		D97162391F283DC70080480A /* FDDKeychainKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162381F283DC70080480A /* FDDKeychainKitUITests.m */; };
+		D971624B1F283F6B0080480A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D971624A1F283F6B0080480A /* Security.framework */; };
+		D97162541F284E560080480A /* FDDKeyChainKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162511F284E560080480A /* FDDKeyChainKit.m */; };
+		D97162551F284E560080480A /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162531F284E560080480A /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D97162581F284FBB0080480A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97162571F284FBB0080480A /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D971622A1F283DC70080480A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97162081F283DC70080480A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D971620F1F283DC70080480A;
+			remoteInfo = FDDKeychainKit;
+		};
+		D97162351F283DC70080480A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97162081F283DC70080480A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D971620F1F283DC70080480A;
+			remoteInfo = FDDKeychainKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D97162101F283DC70080480A /* FDDKeychainKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDDKeychainKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97162141F283DC70080480A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97162161F283DC70080480A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97162171F283DC70080480A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D97162191F283DC70080480A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D971621A1F283DC70080480A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D971621D1F283DC70080480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D971621F1F283DC70080480A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D97162221F283DC70080480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D97162241F283DC70080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97162291F283DC70080480A /* FDDKeychainKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDDKeychainKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D971622D1F283DC70080480A /* FDDKeychainKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDDKeychainKitTests.m; sourceTree = "<group>"; };
+		D971622F1F283DC70080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97162341F283DC70080480A /* FDDKeychainKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDDKeychainKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97162381F283DC70080480A /* FDDKeychainKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDDKeychainKitUITests.m; sourceTree = "<group>"; };
+		D971623A1F283DC70080480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D971624A1F283F6B0080480A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D97162501F284E560080480A /* FDDKeyChainKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDKeyChainKit.h; sourceTree = "<group>"; };
+		D97162511F284E560080480A /* FDDKeyChainKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDKeyChainKit.m; sourceTree = "<group>"; };
+		D97162521F284E560080480A /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		D97162531F284E560080480A /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		D97162561F284FBB0080480A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D97162571F284FBB0080480A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D971620D1F283DC70080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971624B1F283F6B0080480A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162261F283DC70080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162311F283DC70080480A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D97162071F283DC70080480A = {
+			isa = PBXGroup;
+			children = (
+				D97162121F283DC70080480A /* FDDKeychainKit */,
+				D971622C1F283DC70080480A /* FDDKeychainKitTests */,
+				D97162371F283DC70080480A /* FDDKeychainKitUITests */,
+				D97162111F283DC70080480A /* Products */,
+				D97162491F283F6B0080480A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D97162111F283DC70080480A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97162101F283DC70080480A /* FDDKeychainKit.app */,
+				D97162291F283DC70080480A /* FDDKeychainKitTests.xctest */,
+				D97162341F283DC70080480A /* FDDKeychainKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97162121F283DC70080480A /* FDDKeychainKit */ = {
+			isa = PBXGroup;
+			children = (
+				D971624F1F284E560080480A /* FDDKeyChainKit */,
+				D97162161F283DC70080480A /* AppDelegate.h */,
+				D97162171F283DC70080480A /* AppDelegate.m */,
+				D97162191F283DC70080480A /* ViewController.h */,
+				D971621A1F283DC70080480A /* ViewController.m */,
+				D97162561F284FBB0080480A /* DetailViewController.h */,
+				D97162571F284FBB0080480A /* DetailViewController.m */,
+				D971621C1F283DC70080480A /* Main.storyboard */,
+				D971621F1F283DC70080480A /* Assets.xcassets */,
+				D97162211F283DC70080480A /* LaunchScreen.storyboard */,
+				D97162241F283DC70080480A /* Info.plist */,
+				D97162131F283DC70080480A /* Supporting Files */,
+			);
+			path = FDDKeychainKit;
+			sourceTree = "<group>";
+		};
+		D97162131F283DC70080480A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97162141F283DC70080480A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D971622C1F283DC70080480A /* FDDKeychainKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D971622D1F283DC70080480A /* FDDKeychainKitTests.m */,
+				D971622F1F283DC70080480A /* Info.plist */,
+			);
+			path = FDDKeychainKitTests;
+			sourceTree = "<group>";
+		};
+		D97162371F283DC70080480A /* FDDKeychainKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97162381F283DC70080480A /* FDDKeychainKitUITests.m */,
+				D971623A1F283DC70080480A /* Info.plist */,
+			);
+			path = FDDKeychainKitUITests;
+			sourceTree = "<group>";
+		};
+		D97162491F283F6B0080480A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D971624A1F283F6B0080480A /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D971624F1F284E560080480A /* FDDKeyChainKit */ = {
+			isa = PBXGroup;
+			children = (
+				D97162501F284E560080480A /* FDDKeyChainKit.h */,
+				D97162511F284E560080480A /* FDDKeyChainKit.m */,
+				D97162521F284E560080480A /* KeychainItemWrapper.h */,
+				D97162531F284E560080480A /* KeychainItemWrapper.m */,
+			);
+			path = FDDKeyChainKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D971620F1F283DC70080480A /* FDDKeychainKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D971623D1F283DC70080480A /* Build configuration list for PBXNativeTarget "FDDKeychainKit" */;
+			buildPhases = (
+				D971620C1F283DC70080480A /* Sources */,
+				D971620D1F283DC70080480A /* Frameworks */,
+				D971620E1F283DC70080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDDKeychainKit;
+			productName = FDDKeychainKit;
+			productReference = D97162101F283DC70080480A /* FDDKeychainKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97162281F283DC70080480A /* FDDKeychainKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97162401F283DC70080480A /* Build configuration list for PBXNativeTarget "FDDKeychainKitTests" */;
+			buildPhases = (
+				D97162251F283DC70080480A /* Sources */,
+				D97162261F283DC70080480A /* Frameworks */,
+				D97162271F283DC70080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D971622B1F283DC70080480A /* PBXTargetDependency */,
+			);
+			name = FDDKeychainKitTests;
+			productName = FDDKeychainKitTests;
+			productReference = D97162291F283DC70080480A /* FDDKeychainKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D97162331F283DC70080480A /* FDDKeychainKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97162431F283DC70080480A /* Build configuration list for PBXNativeTarget "FDDKeychainKitUITests" */;
+			buildPhases = (
+				D97162301F283DC70080480A /* Sources */,
+				D97162311F283DC70080480A /* Frameworks */,
+				D97162321F283DC70080480A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97162361F283DC70080480A /* PBXTargetDependency */,
+			);
+			name = FDDKeychainKitUITests;
+			productName = FDDKeychainKitUITests;
+			productReference = D97162341F283DC70080480A /* FDDKeychainKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D97162081F283DC70080480A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "方冬冬";
+				TargetAttributes = {
+					D971620F1F283DC70080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D97162281F283DC70080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D971620F1F283DC70080480A;
+					};
+					D97162331F283DC70080480A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D971620F1F283DC70080480A;
+					};
+				};
+			};
+			buildConfigurationList = D971620B1F283DC70080480A /* Build configuration list for PBXProject "FDDKeychainKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D97162071F283DC70080480A;
+			productRefGroup = D97162111F283DC70080480A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D971620F1F283DC70080480A /* FDDKeychainKit */,
+				D97162281F283DC70080480A /* FDDKeychainKitTests */,
+				D97162331F283DC70080480A /* FDDKeychainKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D971620E1F283DC70080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97162231F283DC70080480A /* LaunchScreen.storyboard in Resources */,
+				D97162201F283DC70080480A /* Assets.xcassets in Resources */,
+				D971621E1F283DC70080480A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162271F283DC70080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162321F283DC70080480A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D971620C1F283DC70080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971621B1F283DC70080480A /* ViewController.m in Sources */,
+				D97162541F284E560080480A /* FDDKeyChainKit.m in Sources */,
+				D97162181F283DC70080480A /* AppDelegate.m in Sources */,
+				D97162551F284E560080480A /* KeychainItemWrapper.m in Sources */,
+				D97162151F283DC70080480A /* main.m in Sources */,
+				D97162581F284FBB0080480A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162251F283DC70080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D971622E1F283DC70080480A /* FDDKeychainKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97162301F283DC70080480A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97162391F283DC70080480A /* FDDKeychainKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D971622B1F283DC70080480A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D971620F1F283DC70080480A /* FDDKeychainKit */;
+			targetProxy = D971622A1F283DC70080480A /* PBXContainerItemProxy */;
+		};
+		D97162361F283DC70080480A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D971620F1F283DC70080480A /* FDDKeychainKit */;
+			targetProxy = D97162351F283DC70080480A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D971621C1F283DC70080480A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D971621D1F283DC70080480A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D97162211F283DC70080480A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97162221F283DC70080480A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D971623B1F283DC70080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D971623C1F283DC70080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D971623E1F283DC70080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDDKeychainKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.FDDKeychainKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D971623F1F283DC70080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDDKeychainKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.FDDKeychainKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D97162411F283DC70080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDDKeychainKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.FDDKeychainKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDDKeychainKit.app/FDDKeychainKit";
+			};
+			name = Debug;
+		};
+		D97162421F283DC70080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDDKeychainKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.FDDKeychainKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDDKeychainKit.app/FDDKeychainKit";
+			};
+			name = Release;
+		};
+		D97162441F283DC70080480A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDDKeychainKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.FDDKeychainKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDDKeychainKit;
+			};
+			name = Debug;
+		};
+		D97162451F283DC70080480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDDKeychainKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "want-want.FDDKeychainKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDDKeychainKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D971620B1F283DC70080480A /* Build configuration list for PBXProject "FDDKeychainKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971623B1F283DC70080480A /* Debug */,
+				D971623C1F283DC70080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D971623D1F283DC70080480A /* Build configuration list for PBXNativeTarget "FDDKeychainKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D971623E1F283DC70080480A /* Debug */,
+				D971623F1F283DC70080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97162401F283DC70080480A /* Build configuration list for PBXNativeTarget "FDDKeychainKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97162411F283DC70080480A /* Debug */,
+				D97162421F283DC70080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D97162431F283DC70080480A /* Build configuration list for PBXNativeTarget "FDDKeychainKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97162441F283DC70080480A /* Debug */,
+				D97162451F283DC70080480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D97162081F283DC70080480A /* Project object */;
+}
